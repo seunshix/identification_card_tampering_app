@@ -1,32 +1,34 @@
-<h1>Pan Card Tempering Detection</h1>
-<ol>
-<li>Get Images from User</li>
-<li>Check for size and format of the Image</li>
-<li>Change shape and size of image according to the original image</li>
-<li>Convert the image to grayscale</li>
-<li>Find the similarity index of the images</li>
-<li>Finding the threshold of the image</li>
-<li>Find contours and grab those contours using IMUTILS</li>
-<li>Draw a bounding rectangle using these contours</li>
-<li>Plot difference, threshold, original and tampered image</li>
-<li>Compare all the images and check the similarity score to decide tampering</li>
-</ol>
+# Pan Card Tempering Detection
 
-<h3>Step to run application:</h3>
-<ol>
+### Steps to complete project
+1. Get Images from User
+2. Check for size and format of the Image
+3. Change shape and size of image according to the original image
+4. Convert the image to grayscale
+5. Find the similarity index of the images
+6. Finding the threshold of the image
+7. Find contours and grab those contours using IMUTILS
+8. Draw a bounding rectangle using these contours
+9. Plot difference, threshold, original and tampered image
+10. Compare all the images and check the similarity score to decide tampering
 
-<li>Create a copy of the project that you want to work with.</li>
-<li>Open the command prompt and navigate to the folder where you can find the 'app.py' file</li>.
-<li>Create a new environment using the following command: conda create -n <environment name>
-    Replace <environment name> with the name you want to give to your environment.</li>
-<li>Activate the newly created environment using the following command:
-        conda activate <environment name></li>
-        Make sure to replace <environment name> with the name of your environment.
-<li>Install the required dependencies using the following command: python -m pip install -r requirements.txt
-This will install all the dependencies listed in the requirements.txt file.</li>
-<li>Run the application by executing the following command: python app.py
-This will start the application and you will get a URL. Copy this URL and paste it into your web browser to access the application.</li>
 
-<li>Finally, to test the application, you can use the images provided in the sample_data folder.
-</ol>
+### Step to run application
+
+
+1. Create a copy of the project that you want to work with.
+2. Open the command prompt and navigate to the folder where you can find the 'app.py' file.
+    - Create a new environment using the following command: conda create -n <environment name>
+    - Replace <environment name> with the name you want to give to your environment.
+3. Activate the newly created environment using the following command:
+        conda activate <environment name>
+    - Make sure to replace <environment name> with the name of your environment.
+4. Install the required dependencies using the following command: 
+        python -m pip install -r requirements.txt
+    - This will install all the dependencies listed in the requirements.txt file.
+5. Run the application by executing the following command: python app.py
+    - This will start the application and you will get a URL. Copy this URL and paste it into your web browser to access the application.
+
+6. Finally, to test the application, you can use the images provided in the sample_data folder.
+
 That's it! These steps should help you get started with running the application.
