@@ -16,12 +16,12 @@ app.config['GENERATED_FILE'] = 'app/static/generated'
 @app.route("/", methods=["GET", "POST"])
 def index():
 
-	# Execute if request is get
-	if request.method == "GET":
-	    return render_template("index.html")
-
-	# Execute if reuqest is post
-	if request.method == "POST":
+    # Execute if request is GET
+    if request.method == "GET":
+        return render_template("index.html")
+    
+    # Execute if request is POST
+    if request.method == "POST":
                 # Get uploaded image
                 file_upload = request.files['file_upload']
                 filename = file_upload.filename
