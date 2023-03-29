@@ -29,6 +29,4 @@
 5. Run the application by executing the following command: python app.py
     - This will start the application and you will get a URL. Copy this URL and paste it into your web browser to access the application.
 
-6. Finally, to test the application, you can use the images provided in the sample_data folder.
-
 That's it! These steps should help you get started with running the application.
