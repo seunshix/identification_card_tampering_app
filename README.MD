@@ -2,17 +2,7 @@
 
 This project aims to detect tampering or falsification of PAN cards using computer vision techniques. By analyzing the image's structural content, it can identify tampering through the addition or removal of information or alterations to the image. The project has practical applications for government agencies, financial institutions, and employers who require identity verification. It can be used to verify PAN cards during account opening or loan application processes, and detect tampering or falsification of other identification documents such as voter IDs, passports, and driver's licenses. The project enhances identity verification processes, improves security, and prevents fraud.
 
-### Steps to complete project
-1. Get Images from User
-2. Check for size and format of the Image
-3. Change shape and size of image according to the original image
-4. Convert the image to grayscale
-5. Find the similarity index of the images
-6. Finding the threshold of the image
-7. Find contours and grab those contours using IMUTILS
-8. Draw a bounding rectangle using these contours
-9. Plot difference, threshold, original and tampered image
-10. Compare all the images and check the similarity score to decide tampering
+### For a step-by-step walkthrough of the project, please check out the [Colab notebook](./pan_card_tampering.ipynb)
 
 
 ### Step to run application
@@ -32,3 +22,7 @@ This project aims to detect tampering or falsification of PAN cards using comput
     - This will start the application and you will get a URL. Copy this URL and paste it into your web browser to access the application.
 
 That's it! These steps should help you get started with running the application.
+
+### Screenshots of the running app
+![Prediction with original card](./images\with_original.PNG)
+![Prediction with tampered card](./images/with_tampered.PNG)
