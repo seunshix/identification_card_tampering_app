@@ -24,5 +24,5 @@ This project aims to detect tampering or falsification of PAN cards using comput
 That's it! These steps should help you get started with running the application.
 
 ### Screenshots of the running app
-![Prediction with original card](./images/with_original.PNG)
-![Prediction with tampered card](./images/with_tampered.PNG)
+![Prediction with original card](./images/with_original.PNG 'Prediction with original card')
+![Prediction with tampered card](./images/with_tampered.PNG 'Prediction with tampered card')
