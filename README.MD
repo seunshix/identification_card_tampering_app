@@ -1,6 +1,6 @@
-# Pan Card Tempering Detection
+# Identification Card Tampering Detection 
 
-This project aims to detect tampering or falsification of PAN cards using computer vision techniques. By analyzing the image's structural content, it can identify tampering through the addition or removal of information or alterations to the image. The project has practical applications for government agencies, financial institutions, and employers who require identity verification. It can be used to verify PAN cards during account opening or loan application processes, and detect tampering or falsification of other identification documents such as voter IDs, passports, and driver's licenses. The project enhances identity verification processes, improves security, and prevents fraud.
+This project aims to detect tampering or falsification identification cards using computer vision techniques. By analyzing the image's structural content, it can identify tampering through the addition or removal of information or alterations to the image. The project has practical applications for government agencies, financial institutions, and employers who require identity verification. It can be used to verify PAN cards during account opening or loan application processes, and detect tampering or falsification of other identification documents such as voter IDs, passports, and driver's licenses. The project enhances identity verification processes, improves security, and prevents fraud.
 
 ### For a step-by-step walkthrough of the project, please check out the [Colab notebook](./pan_card_tampering.ipynb)
 
